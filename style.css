@@ -130,10 +130,22 @@ header a:hover{
 footer {
     padding: 32px;
     border-top: 0.4px solid #ebebeb;
+    background-color: #3b3b3bbe;
 }
 
 footer img{
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+
+.conteudo-principal-escrito button:hover{
+    transition: 0.3s;
+    background-color: #8f8f8f;
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito a{
+    color: #000;
 }
